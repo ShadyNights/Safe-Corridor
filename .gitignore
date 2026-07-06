@@ -1,0 +1,57 @@
+# =========================
+# Secrets & Environments
+# =========================
+.env
+.env.*
+*.env
+
+# =========================
+# Python / Backend
+# =========================
+__pycache__/
+*.py[cod]
+*.pyd
+
+# Virtual Environments
+venv/
+env/
+.venv/
+
+# SQLite Database (and WAL temporary files)
+*.db
+*.sqlite3
+*-wal
+*-shm
+
+# =========================
+# Node.js / Frontend (React/Vite)
+# =========================
+node_modules/
+dist/
+.npm/
+
+# =========================
+# Android / Gradle
+# =========================
+.gradle/
+build/
+app/build/
+.cxx/
+captures/
+*.apk
+*.aab
+
+# Crucial: Never commit Android local configs!
+local.properties
+
+# =========================
+# IDEs & Operating System
+# =========================
+.vscode/
+.idea/
+*.iml
+.DS_Store
+Thumbs.db
+
+answer.md 
+audit_report.md 
